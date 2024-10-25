@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: ceaa75bd-bc37-4a8b-b0f2-b7af70e58b0e
-updated_at: 1693487994
+updated_by: 85c8cbdb-b93d-43a9-8809-905089642509
+updated_at: 1729879450
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -20,37 +20,40 @@ page_builder:
         content:
           -
             type: text
-            text: 'Start out on top'
+            text: 'What is this about?'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Peak is your personal bespoke development sherpa. Start every project with this kit full of development goodies. '
-      -
-        type: paragraph
-        content:
+            marks:
+              -
+                type: italic
+            text: 'Get Outside'
           -
             type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
-      -
-        type: paragraph
-        content:
+            text: ' is a community initiative designed to inspire and support individuals in human-powered outdoor adventures. Whether tackling unique, challenging multi-day journeys or gathering a group for local outings, it encourages all skill levels to embrace the outdoors and a lifestyle of activity, wellness, and nature. '
           -
             type: text
-            text: 'Get climbing!'
+            marks:
+              -
+                type: italic
+            text: 'Get Outside'
+          -
+            type: text
+            text: ' also supports adventurers by helping them access the resources they need to make their adventures a success, while fostering a community that values the joy and empowerment of outdoor exploration.'
     type: article
     enabled: true
   -
     id: eFlcYHyl
-    title: Features
+    title: 'Past/Future Projects'
     type: cards
     enabled: true
     cards:
       -
         id: lly5m22j
-        title: 'Check out a form'
-        text: "Peak renders forms and mail templates dynamically so you can add as many forms as you'd like, just by creating them in the CP. Peak ships with a default basic contact form you can edit."
+        title: 'Project 1'
+        text: 'Coming Soon'
         label: 'Send a form'
         link_type: entry
         target_blank: false
@@ -61,15 +64,15 @@ page_builder:
         button:
           -
             id: llz6sh4t
-            label: 'Send a form'
+            label: Details
             link_type: entry
             target_blank: false
             entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
             button_type: inline
       -
         id: lly5mxh7
-        title: 'Long form content'
-        text: 'For long form content you can use the Article content block. This is a Bard fieldtypeopen in new window with multiple sets of fields that are regularly used in longer articles.'
+        title: 'Project 2'
+        text: 'Coming Soon'
         label: 'Read an article'
         link_type: entry
         target_blank: false
@@ -80,15 +83,15 @@ page_builder:
         button:
           -
             id: llz6svox
-            label: 'Read an article'
+            label: Details
             link_type: entry
             target_blank: false
             entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
             button_type: inline
       -
         id: lly5nvk4
-        title: 'Way more features'
-        text: 'Professional SEO, social image generation, responsive assets, appearance globals, favicons generation, search templates, dark mode support with toggle, pagination template, search and additional bottles of oxygen.'
+        title: 'Future Project 1'
+        text: TBA
         label: 'Climb the docs'
         link_type: url
         target_blank: true
@@ -99,7 +102,7 @@ page_builder:
         button:
           -
             id: llz6t5ao
-            label: 'Read the docs'
+            label: Details
             link_type: url
             target_blank: true
             url: 'https://peak.1902.studio'
