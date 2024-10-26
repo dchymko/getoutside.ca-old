@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 85c8cbdb-b93d-43a9-8809-905089642509
-updated_at: 1729879450
+updated_by: 36715fa5-8874-4f5a-a464-da4c9da61c84
+updated_at: 1729919104
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -42,6 +42,14 @@ page_builder:
           -
             type: text
             text: ' also supports adventurers by helping them access the resources they need to make their adventures a success, while fostering a community that values the joy and empowerment of outdoor exploration.'
+      -
+        type: set
+        attrs:
+          id: m2povuwc
+          values:
+            type: image
+            image: dcbikebanff.jpg
+            size: md
     type: article
     enabled: true
   -
