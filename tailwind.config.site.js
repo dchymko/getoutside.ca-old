@@ -24,7 +24,7 @@ module.exports = {
       },
       // Primary: primary brand color with a default fallback if you don't need shades. Always set a DEFAULT when you use shades.
       primary: {
-        DEFAULT: 'oklch(53.24% 0.301 290.86 / <alpha-value>)'
+        DEFAULT: 'oklch(53.24% 0.0789 241.73 / <alpha-value>)'
       },
     },
     extend: {
