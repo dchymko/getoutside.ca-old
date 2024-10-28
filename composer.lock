@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe3199ad9cd9d69a660a3d3e61dd9d60",
+    "content-hash": "e3694fbc12407897e58d5a2e911e0a97",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4665,6 +4665,54 @@
                 }
             ],
             "time": "2024-05-31T11:38:42+00:00"
+        },
+        {
+            "name": "studio1902/statamic-peak-commands",
+            "version": "v8.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studio1902/statamic-peak-commands.git",
+                "reference": "85ed56c1a2fbf23340edd6d0b34af47f5b9ff011"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studio1902/statamic-peak-commands/zipball/85ed56c1a2fbf23340edd6d0b34af47f5b9ff011",
+                "reference": "85ed56c1a2fbf23340edd6d0b34af47f5b9ff011",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/prompts": "^0.1.19",
+                "statamic/cms": "^4.0 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Peak Commands",
+                    "description": "Statamic Peak Commands addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Studio1902\\PeakCommands\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Studio1902\\PeakCommands\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/studio1902/statamic-peak-commands/issues",
+                "source": "https://github.com/studio1902/statamic-peak-commands/tree/v8.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/studio1902",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-10-07T14:26:16+00:00"
         },
         {
             "name": "studio1902/statamic-peak-seo",
@@ -10054,12 +10102,12 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

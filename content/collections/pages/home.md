@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 36715fa5-8874-4f5a-a464-da4c9da61c84
-updated_at: 1729919104
+updated_at: 1729961331
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -21,6 +21,8 @@ page_builder:
           -
             type: text
             text: 'What is this about?'
+      -
+        type: paragraph
       -
         type: paragraph
         content:

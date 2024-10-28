@@ -11,6 +11,39 @@ fields:
       display: 'Page builder'
       button_label: 'Add block'
       sets:
+        fw:
+          display: FW
+          instructions: 'Collection based content'
+          icon: alert-help-question
+          sets:
+            collection:
+              display: Collection
+              instructions: 'Show collection entries.'
+              icon: file-content-list
+              fields:
+                -
+                  import: collection
+            full_width_image:
+              display: 'Full width image'
+              instructions: 'A full width image with optional text and button(s).'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: full_width_image
+            images_grid:
+              display: 'Images grid'
+              instructions: 'A multi row image grid.'
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: images_grid
+            index_content:
+              display: 'Index content'
+              instructions: 'Render the currently mounted entries if available.'
+              icon: file-content-list
+              fields:
+                -
+                  import: index_content
         interactive:
           display: Interactive
           instructions: 'Interactive blocks.'
@@ -42,3 +75,10 @@ fields:
               fields:
                 -
                   import: article
+            full_width_image:
+              display: 'Full width image'
+              instructions: 'A full width image with optional text and button(s).'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: full_width_image

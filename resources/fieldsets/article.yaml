@@ -47,6 +47,13 @@ fields:
           instructions: 'Text based sets.'
           icon: text-formatting-initial-letter
           sets:
+            full_width:
+              display: 'Full Width'
+              instructions: 'A full text image'
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  import: full_width
             pull_quote:
               display: 'Pull quote'
               instructions: 'Add a pull quote with an optional author.'
