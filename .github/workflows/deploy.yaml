@@ -26,8 +26,8 @@ jobs:
         run: "sudo apt install software-properties-common && sudo add-apt-repository ppa:ondrej/php && sudo apt update && sudo apt install php8.3 php-curl"
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build Vite
-        run:  npm run build
+      - name: Build Vite # Checks that npm builds correctly
+        run: npm run build
       - name: Deploy to Cloudways server
         uses: dchymko/ssh-deploy@main
         with:
@@ -40,9 +40,11 @@ jobs:
           SCRIPT_BEFORE: |
             whoami
             ls -al
+          SCRIPT_AFTER_REQUIRED: true
           SCRIPT_AFTER: |
             cd public_html
             whoami
             ls -al
-            composer update && npm run build
-
+            export NPM_CONFIG_CACHE=~/public_html
+            npm run build
+            composer update
